@@ -1,0 +1,30 @@
+.box-child{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 10px;
+}
+.box-child:nth-child(2){
+    background-color: antiquewhite;
+}
+.box-child:nth-child(3){
+    background-color: green;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    /* horizontal position */
+    justify-content: center;
+    /* vertical position */
+    align-items: center;
+    background-color: purple;
+    flex-direction: row-reverse;
+}
+.box-wraper{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+}
